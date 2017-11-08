@@ -16,7 +16,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("aaa \(self.dictResponse)")
+       
+        print("aaaaa \(self.dictResponse)")
     }
     @IBAction func getAction(_ sender: Any) {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/users") else {
